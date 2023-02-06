@@ -14,6 +14,7 @@
 		A813DD4A2990DED100CD7B84 /* WebViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A813DD492990DED100CD7B84 /* WebViewTests.swift */; };
 		A813DD542990DED100CD7B84 /* WebViewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A813DD532990DED100CD7B84 /* WebViewUITests.swift */; };
 		A813DD562990DED100CD7B84 /* WebViewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A813DD552990DED100CD7B84 /* WebViewUITestsLaunchTests.swift */; };
+		A813DD632990E41E00CD7B84 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A813DD622990E41E00CD7B84 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		A813DD4F2990DED100CD7B84 /* WebViewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = WebViewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A813DD532990DED100CD7B84 /* WebViewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewUITests.swift; sourceTree = "<group>"; };
 		A813DD552990DED100CD7B84 /* WebViewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebViewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A813DD622990E41E00CD7B84 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +98,7 @@
 			children = (
 				A813DD382990DECF00CD7B84 /* WebViewApp.swift */,
 				A813DD3A2990DECF00CD7B84 /* ContentView.swift */,
+				A813DD622990E41E00CD7B84 /* WebView.swift */,
 				A813DD3C2990DED100CD7B84 /* Assets.xcassets */,
 				A813DD3E2990DED100CD7B84 /* Preview Content */,
 			);
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A813DD632990E41E00CD7B84 /* WebView.swift in Sources */,
 				A813DD3B2990DECF00CD7B84 /* ContentView.swift in Sources */,
 				A813DD392990DECF00CD7B84 /* WebViewApp.swift in Sources */,
 			);
